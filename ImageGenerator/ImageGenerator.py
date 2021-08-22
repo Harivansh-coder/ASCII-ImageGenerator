@@ -26,7 +26,7 @@ def create(val):
 if __name__ == "__main__":
 
     # Reading the image
-    img = cv2.imread('PATH OF THE IMAGE',0)
+    img = cv2.imread('PATH OF THE IMAGE ON YOUR LOCAL MACHINE',0) # I have used mario image you can see it in output file
 
     k = 25
 
@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
 
     
-    
+    # creating the file and print the image in it
     with open("image.txt",'w') as file:
         for i in ascii_arr:
             for j in i:
